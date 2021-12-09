@@ -12,13 +12,13 @@
 > - Observer : Saham, Reksadana, Kripto
 > - Package/Folder : Instrumen
 
->  &emsp;&emsp;Untuk setiap investasi yang dilakukan maka tiap instrumen akan menerima pemberitahuan saat ada dana yang masuk.
+>  &emsp;&emsp;Untuk setiap investasi yang dilakukan maka tiap instrumen akan menerima pemberitahuan saat ada dana yang masuk. Implementasi Observer terdapat pada `main.java`
 
 ## Penerapan Decorator Pattern :
 > - Decorator : SatuTahunDecorator, DuaTahunDecorator
 > - Package/Folder : DurasiInvestasi
 
-> &emsp;&emsp;Untuk setiap instrumen, tersedia pilihan durasi investasi yaitu 1 tahun atau 2 tahun. Durasi ini diterapkan melalui decorator yaitu SatuTahunDecorator dan DuaTahunDecorator. Implementasi decorator terdapat pada file `investor.java`
+> &emsp;&emsp;Untuk setiap instrumen, tersedia pilihan durasi investasi yaitu 1 tahun atau 2 tahun. Durasi ini diterapkan melalui decorator yaitu SatuTahunDecorator dan DuaTahunDecorator. Implementasi decorator tidak dibuat di `main.java` namun, terdapat pada file `investor.java` agar file main lebih clean.
 
 ## Output :
 
